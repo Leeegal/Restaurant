@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,
+    minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+    <title>皮皮怪餐馆</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <style>
+        /* Make the image fully responsive */
+        
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <!-- 指示符 -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+
+                        <!-- 轮播图片 -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/01.png">
+                                <div class="carousel-caption">
+                                    <h3>风土乡情</h3>
+                                    <p>Cras justo odio.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/02.png">
+                                <div class="carousel-caption">
+                                    <h3>异域美食</h3>
+                                    <p>Cras justo odio.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/03.png">
+                                <div class="carousel-caption">
+                                    <h3>风味小吃</h3>
+                                    <p>Cras justo odio.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 左右切换按钮 -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+
+                    <div class="alert alert-info" role="alert">
+                        <strong>Welcome !</strong> 皮皮怪餐馆欢迎您的光临！！
+                    </div>
+
+
+                    <div class="row clearfix">
+                        <div class="col-md-1.5 column">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-pills nav-stacked" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#snack" role="tab" data-toggle="tab">经典小吃</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#drink" role="tab" data-toggle="tab">饮尿</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#rice" role="tab" data-toggle="tab">主食</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#noodle" role="tab" data-toggle="tab">面食</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9 column">
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="snack">
+                                    <p>经典小吃是各个地方的特色小吃聚集在一起，让你体验不同的地域小吃风采。</p>
+                                    <div id="content" class="list">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <a href="detail.html"><img src="images/01.jpg" class="list-pic"></a>
+                                                <div class="shop-list-mid">
+                                                    <div class="tit">
+                                                        皮皮水
+                                                    </div>
+                                                    <div class="am-gallery-desc">￥52</div>
+                                                </div>
+                                                <div class="list-cart">
+                                                    <div class="d-stock"><a class="decrease">-</a><input id="num" readonly="" name="" type="text" value="0" class="text_box"><a class="increase">+</a></div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="detail.html"><img src="images/1.png" class="list-pic"></a>
+                                                <div class="shop-list-mid">
+                                                    <div class="tit">
+                                                        皮皮糖
+                                                    </div>
+                                                    <div class="am-gallery-desc">￥52</div>
+                                                </div>
+                                                <div class="list-cart">
+                                                    <div class="d-stock"><a class="decrease">-</a><input id="num" readonly="" name="" type="text" value="0" class="text_box"><a class="increase">+</a></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="drink">
+                                    <p>饮尿是为很多人知道的一种不健康饮品，一般只有在沙漠里面才会尝试到，在这里也可以尝试，只需一分钟36度新鲜感受。</p>
+                                    <div id="content" class="list">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <a href="detail.html"><img src="images/01.jpg" class="list-pic"></a>
+                                                <div class="shop-list-mid">
+                                                    <div class="tit">
+                                                        皮皮水
+                                                    </div>
+                                                    <div class="am-gallery-desc">￥52</div>
+                                                </div>
+                                                <div class="list-cart">
+                                                    <div class="d-stock"><a class="decrease">-</a><input id="num" readonly="" name="" type="text" value="0" class="text_box"><a class="increase">+</a></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="rice">
+                                    <p>米饭颗粒饱满，能满足大部分的能量需求，怕吃不饱的就点我。</p>
+                                    <div id="content" class="list">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <a href="detail.html"><img src="images/01.jpg" class="list-pic"></a>
+                                                <div class="shop-list-mid">
+                                                    <div class="tit">
+                                                        皮皮水
+                                                    </div>
+                                                    <div class="am-gallery-desc">￥52</div>
+                                                </div>
+                                                <div class="list-cart">
+                                                    <div class="d-stock"><a class="decrease">-</a><input id="num" readonly="" name="" type="text" value="0" class="text_box"><a class="increase">+</a></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="noodle">
+                                    <p>面食是北方人多爱吃的一种食物，丰富多样色彩鲜艳，口味丰富，是爽口的不二选择。</p>
+                                    <div id="content" class="list">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <a href="detail.html"><img src="images/01.jpg" class="list-pic"></a>
+                                                <div class="shop-list-mid">
+                                                    <div class="tit">
+                                                        皮皮水
+                                                    </div>
+                                                    <div class="am-gallery-desc">￥52</div>
+                                                </div>
+                                                <div class="list-cart">
+                                                    <div class="d-stock"><a class="decrease">-</a><input id="num" readonly="" name="" type="text" value="0" class="text_box"><a class="increase">+</a></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="footer">
+                    <nav class="navbar navbar-default navbar-fixed-bottom">
+                        <div class="navbar-inner navbar-content-center">
+                            <!-- HTML to write -->
+                            <a href="order_page.html" data-toggle="tooltip" title="Some tooltip text!">选好了</a>
+
+                            <!-- Generated markup by the plugin -->
+                            <div class="tooltip top" role="tooltip">
+                                <div class="tooltip-arrow"></div>
+                                <div class="tooltip-inner">
+                                    Some tooltip text!
+                                </div>
+                            </div>
+                            <!-- <div class="fix-bot"><a href="" class="list-js">合计：<i>20元</i><em>(1份)</em></a>
+                                <div style="float: right;"><a href="order.html"><button type="button" class="btn btn-sucess">选好了</button></a></div>
+                            </div> -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <script>
+                $(function() {
+                    $('.increase').click(function() {
+                        var self = $(this);
+                        var current_num = parseInt(self.siblings('input').val());
+                        current_num += 1;
+                        if (current_num > 0) {
+                            self.siblings(".decrease").fadeIn();
+                            self.siblings(".text_box").fadeIn();
+                        }
+                        self.siblings('input').val(current_num);
+                        update_item(self.siblings('input').data('item-id'));
+                    })
+                    $('.decrease').click(function() {
+                        var self = $(this);
+                        var current_num = parseInt(self.siblings('input').val());
+                        if (current_num > 0) {
+                            current_num -= 1;
+                            if (current_num < 1) {
+                                self.fadeOut();
+                                self.siblings(".text_box").fadeOut();
+                            }
+                            self.siblings('input').val(current_num);
+                            update_item(self.siblings('input').data('item-id'));
+                        }
+                    })
+                    $('.list-jsk').click(function() {
+                        var self = $(this);
+                        var current_num = parseInt(self.siblings('input').val());
+                        if (current_num > 0) {
+                            current_num -= 1;
+                            if (current_num < 1) {
+                                self.fadeOut();
+                                self.siblings(".text_box").fadeOut();
+                            }
+                            self.siblings('input').val(current_num);
+                            update_item(self.siblings('input').data('item-id'));
+                        }
+                    })
+                })
+            </script>
+        </div>
+        </div>
+    </body>
+</body>
+
+</html>
