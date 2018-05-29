@@ -1,0 +1,206 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.head {
+  height: 60px;
+  background-color: #fafafa;
+}
+
+.logo {
+  width: 10%;
+  height: 100%;
+  float: left;
+}
+
+.head-contents {
+  width: 90%;
+  height: 100%;
+  float: right;
+}
+
+.head-contents a {
+  margin: 10px 5px;
+  float: right;
+}
+
+.contents {
+  height: 100%;
+  padding: 0;
+}
+
+.con-left {
+  width: 10%;
+  min-width: 80px;
+  max-width: 200px;
+  height: 1280px;
+  padding: 0;
+  float: left;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.con-left a {
+  color: gray;
+  background-color: inherit;
+}
+
+.con-left a:hover {
+  color: rgba(255, 109, 0, 0.87);
+  background-color: rgb(237, 240, 242);
+}
+
+a.a-selected{
+  color: rgb(255, 109, 0);
+}
+
+.con-right {
+  width: 90%;
+  min-width: 500px;
+  max-width: 1780px;
+  height: auto;
+  padding: 0px 0px;
+  float: left;
+  background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.2)),to(rgba(0,0,0,0)));
+}
+
+.info-pages {
+  margin: 1% 1%;
+}
+
+.card {
+  min-width: 380px;
+  padding: 10px 10px;
+  z-index: 0;
+}
+
+form {
+  width: 500px;
+}
+
+.form-body label {
+  min-width: 100px;
+  margin: 10px 10px;
+  font-size: 20px;
+}
+
+.form-body input {
+  min-width: 250px;
+  margin: 10px 10px;
+}
+
+.form-body img {
+  position: relative;
+  margin: 0px 0px;
+  top: 10px;
+  width: 35px;
+  height: 35px;
+  opacity: 0;
+}
+
+.code-data {
+  display: none;
+}
+
+.btn-circle {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  left: 47%;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  width: 70px;
+  height: 70px;
+}
+
+.btn-line {
+  content: "";
+  display: block;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  z-index: 0;
+}
+
+.btn-circle a {
+  display: block;
+  text-decoration: none;
+  background-color: #f7f7f7;
+  border-image: -webkit-linear-gradient(top, #f7f7f7, #e7e7e7);
+  color: #a7a7a7;
+  margin: 15px;
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  border: solid 1px transparent;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+  cursor: pointer;
+}
+
+.btn-circle a:hover {
+  text-decoration: none;
+  color: #555;
+  background-color: #f5f5f5;
+}
+
+.btn-circle a:active {
+  box-shadow: none;
+  border: solid 1px #a7a7a7;
+}
+
+.btn-square {
+  content: "";
+  display: block;
+  background: #fff;
+  border-top: 2px solid #ddd;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  bottom: -5px;
+  right: -5px;
+  z-index: -1;
+  border-radius: 50%;
+  box-shadow: inset 0px 8px 48px #ddd;
+}
+
+.icon-home {
+  box-sizing: border-box;
+  color: #a7a7a7;
+  cursor: pointer;
+  display: inline;
+  line-height: 40px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.btn-circle img {
+  position: relative;
+  top: -2px;
+  height: 30px;
+  width: 30px;
+}
+
+thead th {
+  width: 22.5%;
+}
+
+thead th:first-child {
+  width: 10%;
+}
+
+td input {
+  display: none;
+  padding: 0px;
+  border-width: 0px;
+}

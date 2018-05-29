@@ -1,0 +1,45 @@
+extends user
+append head-content
+  script(src='/javascripts/info-ingredients.js')
+block info-page
+  .card
+    .card-block
+      h4 食材信息
+      table.table.table-hover
+        thead
+          tr
+            th #
+            th 市价
+            th 购入价
+            th 库存
+        tbody
+          .code-data
+            var ingredients = #{ingredients}
+          each ingredient, i in ingredients
+            tr.alert
+              th(scope='row') #{i}
+              td
+                span #{ingredient.name}
+                input(type='text')
+              td
+                span #{ingredient.price}0
+                input(type='text')
+              td
+                span #{ingredient.cost}
+                input(type='text')
+              td.stock
+                span #{ingredient.stock}
+                input(type='text')
+              //td
+              //  .btn-circle
+              //    .btn-line
+              //    a(href='#')#deleteRow
+              //      .btn-square
+              //      span.icon-home
+              //        img(src='/images/cross.png')
+      .btn-circle
+        .btn-line
+        a(href='#')#addRow
+          .btn-square
+          span.icon-home
+            img(src='/images/plus.png')
